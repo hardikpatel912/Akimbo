@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^sfgoodwill\.akimboworks\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.sfgoodwill\.akimboworks\.com$
+RewriteRule ^/?$ "http\:\/\/sfgoodwill\.akimboworks\.com\/" [R=301,L]
+

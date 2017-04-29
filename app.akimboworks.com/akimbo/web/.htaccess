@@ -1,0 +1,7 @@
+
+RewriteEngine on
+
+RewriteCond %{HTTP_HOST} ^app\.akimboworks\.com$ [OR]
+RewriteCond %{HTTP_HOST} ^www\.app\.akimboworks\.com$
+RewriteRule ^/?$ "http\:\/\/app\.akimboworks\.com\/\^\/\$" [R=301,L]
+
